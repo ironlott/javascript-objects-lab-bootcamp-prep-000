@@ -24,5 +24,12 @@ function deleteFromObjectByKey(object, key){
 
 function destructivelyDeleteFromObjectByKey(object, key){
   delete object[key];
+<<<<<<< HEAD
   return object;
+=======
+}
+
+function destructivelyDeleteFromObjectByKey(object, key){
+  
+>>>>>>> eeeebdad3f7b8a1ca222234c1d9700d4a3429e78
 }
